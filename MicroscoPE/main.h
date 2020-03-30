@@ -48,13 +48,3 @@ HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE); //For Console Color
 HANDLE hFile;
 HANDLE hFileMapping;
 LPVOID lpFileBase;
-
-PIMAGE_DOS_HEADER dHeader; //For DOS header
-
-
-PIMAGE_NT_HEADERS pHeader; //PE header
-PIMAGE_FILE_HEADER fHeader; //File Header
-PIMAGE_OPTIONAL_HEADER oHeader; //Optional Header
-PIMAGE_SECTION_HEADER sHeader; //Section Header
-
-PIMAGE_DOS_HEADER header; //Header
